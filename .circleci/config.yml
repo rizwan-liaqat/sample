@@ -53,7 +53,7 @@ jobs:
                 command: npm install --save-dev firebase-tools
             - run:
                 name: Login to Firebase
-                command: firebase login
+                command: npm run firebase-login
             - run:
                 name: Deploy Master to Firebase
                 command: npm run firebase-deploy
